@@ -40,8 +40,8 @@ public class Main {
             reverseFullName[i] = reverseFullName[reverseFullName.length - 1 - i];
             reverseFullName[reverseFullName.length - 1 - i] = back;
         }
-        for (char c : reverseFullName) {
-            System.out.print(c);
+        for (char reverse : reverseFullName) {
+            System.out.print(reverse);
         }
     }
 }
